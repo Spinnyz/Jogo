@@ -1,3 +1,4 @@
-var n1 = Number(1).value;
+var n1 = prompt ("Digite a quilometragem")
 
-console.log (n1);
+var n2 = n1/1.609344
+alert (`${n1} Km em milhas é ${n2}`)
