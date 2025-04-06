@@ -6,7 +6,8 @@ if (idade >= 18){
   alert ("Pode não entrar")
 }
 
-var jogo = prompt ("Pedra Papel ou Tesoura?")
+var jogo = prompt ("Pedra Papel ou Tesoura?").toLowerCase()
+//converte a resposta para minusculo
 if (jogo == "Pedra"){
   alert ("Você escolheu a Pedra")
 }else if (jogo == "Papel"){
