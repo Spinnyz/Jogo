@@ -14,7 +14,7 @@ if (jogo == "Pedra"){
   alert ("Você escolheru o Papel")
 
 } else if (jogo == "Tesoura"){
-  alert ("Você escolher a Tesoura")
+  alert ("Você escolheu a Tesoura")
 }else {
   alert ("Escolha entre Pedra Papel ou Tesoura")
 }
