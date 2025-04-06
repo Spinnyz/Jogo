@@ -1,3 +1,4 @@
+
 //perguntar idade
 var idade = prompt  ("Qual a sua idade?")
 if (idade >= 18){
@@ -19,3 +20,13 @@ if (jogo == "Pedra"){
   alert ("Escolha entre Pedra Pepel ou Tesoura")
 
 }
+var computador = Math.floor(Math.random()*3)+1;
+ if (computador == 1){
+  computador = "Pedra"
+ }else if (computador == 2){
+  computador = "Papel"
+}else if (computador == 3){
+  computador = "Tesoura"
+} 
+
+
