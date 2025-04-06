@@ -1,1 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#fff
 }
+
+body{
+    background-image: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg');
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont
+
+
