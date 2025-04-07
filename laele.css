@@ -12,21 +12,3 @@ body {
   
   .logo img {
     width: 40%;
-  }
-  
-  /* Caixa principal do jogo */
-  .conteudo-jogo {
-    background: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 5px #ff1b7b;
-    margin: 30px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-  
-  .conteudo-jogo:hover {
-    background: rgba(0, 0, 0);
-    box-shadow: 0 0 5px #19caca;
-  }
-  
