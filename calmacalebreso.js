@@ -13,6 +13,8 @@ rodada=1000
 if (rodada === 4){
      alert ("Você venceu")
 }
+
+
 }
 
    
