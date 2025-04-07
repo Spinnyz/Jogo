@@ -1,36 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Centralizar Div</title>
-  <style>
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
-
-    body {
-      display: flex;
-      justify-content: center; /* Centraliza na horizontal */
-      align-items: center;     /* Centraliza na vertical */
-      background-color: #f0f0f0;
-    }
-
-    .centralizada {
-      width: 300px;
-      height: 200px;
-      background-color: #4a90e2;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 10px;
-      font-size: 20px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="laele.css">
 </head>
 <body>
-  <div class="centralizada">Eu tô no centro!</div>
+        <div class="logo">
+          <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo da Imersão Dev" />
+        </div>
+      
+        <div class="titulo">
+          <h2>Força ou Queda</h2>
+        </div>
+      
+        <main class="conteudo-jogo">
+          <div id="container">
+            <h2>Escolha 3 jogadores para seu time:</h2>
+      
+            <p id="informacoesJogador" class="resultado"></p>
+            <p id="informacoesComputador" class="resultado"></p>
+            <button id="resultadoBtn" style="display:none;">Ver Resultado</button>
+            <h1 id="resultadoFinal" class="resultado"></h1>
+        </main>
+    <script src="calmacalebreso.js"></script>
 </body>
 </html>
